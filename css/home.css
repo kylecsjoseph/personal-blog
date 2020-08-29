@@ -1,37 +1,54 @@
 .main-container {
     display: grid;
+    margin: 0;
     grid-template-rows: 40px 60px auto 30px;
     grid-template-areas: 
     "nav-bar"
     "header"
     "content"
     "footer";
-    
 }
 
+
+/* Header */
 .nav-bar {
     display: flex;
     align-items: center;
-    justify-content: stretch;
-    background-color: #aaa;
+    padding: 5px;
+    justify-content: space-between;
+    background-color: lightgreen;
+}
+
+.logo {
+    height: 25px;
 }
 
 .header {
     display: flex;
     align-items: center;
-    background-color: #ddd;
+    justify-content: center;
+    padding: 5px;
+    background-color: lightblue;
 }
 
+
+/* Content */
 .content {
     display: flex;
+    padding: 20px 0 20px 0;
     align-items: center;
+    gap: 30px;
     flex-direction: column;
 }
 
 .blog-post {
     display: grid;
-    grid-template-rows: 100px 100px;
-    grid-template-columns: 300px 500px;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid grey;
+    grid-template-rows: 20px 100px;
+    grid-template-columns: 140px 400px;
     grid-template-areas:
     "image title"
     "image text";
@@ -39,23 +56,27 @@
 
 .post-image {
     grid-area: image;
+    border-radius: 100px;
     background-image: url(/images/test.jpg);
-    background-size: cover;
+    background-size: contain;
+    background-color: #000;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .post-title {
     grid-area: title;
-    text-align: center;
 }
 
 .post-text {
     grid-area: text;
-    text-align: center;
 }
 
+
+/* Footer */
 .footer {
     display: flex;
-    background-color: #aaa;
+    background-color: lightgreen;
     align-items: center;
     justify-content: center;
 }

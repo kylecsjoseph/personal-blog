@@ -26,7 +26,7 @@
     padding: 10px;
     border-radius: 20px;
     border: 2px solid #888;
-    box-shadow: 5px 5px 0px 0px black;
+    box-shadow: 5px 5px 0px 0px #000;
     grid-template-rows: 20px 100px;
     grid-template-columns: 140px 350px;
     grid-template-areas:

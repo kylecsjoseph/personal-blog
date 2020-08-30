@@ -16,7 +16,17 @@
     align-items: center;
     padding: 5px;
     justify-content: space-between;
-    background-color: lightgreen;
+    background-color: darkslategray;
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-link {
+    color: white;
 }
 
 .logo {
@@ -57,11 +67,11 @@
 .post-image {
     grid-area: image;
     border-radius: 100px;
-    background-image: url(/images/test.jpg);
-    background-size: contain;
-    background-color: #000;
-    background-position: center;
-    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.pic {
+    height: 100%;
 }
 
 .post-title {
@@ -76,7 +86,7 @@
 /* Footer */
 .footer {
     display: flex;
-    background-color: lightgreen;
+    background-color: darkslategray;
     align-items: center;
     justify-content: center;
 }

@@ -1,7 +1,7 @@
 .main-container {
     display: grid;
     margin: 0;
-    grid-template-rows: 40px 60px auto 30px;
+    grid-template-rows: 100px 60px auto 30px;
     grid-template-areas: 
     "nav-bar"
     "header"
@@ -22,15 +22,18 @@
 
 .blog-post {
     display: grid;
-    gap: 20px;
-    padding: 10px;
-    border-radius: 20px;
-    border: 2px solid #888;
-    box-shadow: 5px 5px 0px 0px #000;
-    grid-template-rows: 20px 100px;
+    font-family: Muli;
+    gap: 5px;
+    column-gap: 30px;
+    padding: 15px;
+    border: 2px solid #036;
+    background-color: #EFE;
+    grid-template-rows: 5px 10px 20px 80px;
     grid-template-columns: 140px 350px;
     grid-template-areas:
     "image title"
+    "image date"
+    "image ."
     "image post";
 }
 
@@ -46,22 +49,10 @@
 
 .post-title {
     grid-area: title;
-    color: #244;
+    font-size: 25px;
+    color: #036;
 }
 
 .post-text {
     grid-area: post;
-}
-
-
-/* Footer */
-.footer {
-    display: flex;
-    background-color: #244;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer-text {
-    color: #fff;
 }

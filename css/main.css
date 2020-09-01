@@ -1,8 +1,17 @@
 @import "home.css";
 
+/* Page */
+html {
+    background-color: #5D9;
+    color: #036;
+    font-family: Didot, sans-serif;
+    font-weight: 400;
+}
+
+
 /* Header */
-header {
-    font-family: Arial, Helvetica, sans-serif;
+.header {
+    font-size: 20px;
 }
 
 .nav-bar {
@@ -10,21 +19,27 @@ header {
     align-items: center;
     padding: 10px;
     justify-content: space-between;
-    background-color: #244;
+    border: solid #EFE;
+    border-width: 3px 0 3px 0;
 }
 
 .pages {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 .nav-link {
-    color: #fff;
+    color: #036;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
 }
 
 .logo {
-    height: 25px;
+    height: 30px;
 }
 
 .header {
@@ -32,7 +47,6 @@ header {
     align-items: center;
     justify-content: center;
     padding: 5px;
-    background-color: lightblue;
 }
 
 /* Content */
@@ -42,4 +56,14 @@ main {
 
 a {
     text-decoration: none;
+}
+
+
+/* Footer */
+.footer {
+    display: flex;
+    border: solid #EFE;
+    border-width: 3px 0 3px 0;
+    align-items: center;
+    justify-content: center;
 }

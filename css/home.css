@@ -45,4 +45,5 @@
 
 .post-text {
     grid-area: post;
+    max-height: 80px;
 }

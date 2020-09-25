@@ -1,52 +1,14 @@
+@import "layout.css";
 @import "home.css";
-
-/* Page */
-html {
-    background-color: #5D9;
-    color: #036;
-    font-family: Didot, sans-serif;
-    font-weight: 400;
-}
-
+@import "post.css";
 
 /* Header */
 .header {
-    font-size: 20px;
-}
-
-.nav-bar {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    justify-content: space-between;
-    border: solid #EFE;
-    border-width: 3px 0 3px 0;
-}
-
-.pages {
-    display: flex;
-    align-items: center;
-    gap: 40px;
+    font-size: 25px;
 }
 
 .nav-link {
     color: #036;
-}
-
-.social {
-    display: flex;
-    gap: 10px;
-}
-
-.logo {
-    height: 30px;
-}
-
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
 }
 
 /* Content */
@@ -56,14 +18,4 @@ main {
 
 a {
     text-decoration: none;
-}
-
-
-/* Footer */
-.footer {
-    display: flex;
-    border: solid #EFE;
-    border-width: 3px 0 3px 0;
-    align-items: center;
-    justify-content: center;
 }

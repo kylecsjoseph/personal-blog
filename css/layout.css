@@ -1,0 +1,56 @@
+/* Page */
+html {
+    background-color: #9bd;
+    color: #036;
+    font-family: Didot, sans-serif;
+    font-weight: 400;
+}
+
+.main-container {
+    display: grid;
+    margin: 0;
+    grid-template-rows: 120px 60px auto 30px;
+}
+
+
+/* Header */
+.nav-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    border: solid #FFF;
+    border-width: 3px 0 3px 0;
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+}
+
+.logo {
+    height: 30px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+
+/* Footer */
+.footer {
+    display: flex;
+    border: solid #FFF;
+    border-width: 3px 0 3px 0;
+    align-items: center;
+    justify-content: center;
+}

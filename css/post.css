@@ -1,0 +1,36 @@
+/* Content */
+.post-content {
+    display: grid;
+    grid-template-columns: auto 300px;
+}
+
+.post {
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+    align-items: left;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-box {
+    display: flex;
+    border: 2px solid #036;
+    background-color: #fff;
+    margin: 15px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: left;
+}
+
+.archives {
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: left;
+
+}

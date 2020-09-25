@@ -34,3 +34,7 @@
     align-items: left;
 
 }
+
+.archives-list {
+    list-style-type: none;
+}

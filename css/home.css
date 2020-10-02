@@ -39,8 +39,14 @@
 
 .post-title {
     grid-area: title;
+    max-height: 5px;
     font-size: 25px;
     color: #036;
+}
+
+.date {
+    grid-area: date;
+    max-height: 10px;
 }
 
 .post-text {
